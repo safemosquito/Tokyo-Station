@@ -1,0 +1,116 @@
+/* Ghibli Theme Stylesheet for Tokyo Station - Blue Tones and Prominent Header */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the base font size */
+html {
+    font-size: 50%; /* 1rem = 8px for easy calculations */
+}
+
+/* Font and background setup */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef1f5; /* Light blue background color */
+    color: #333;
+    line-height: 1.6;
+    font-size: 1rem; /* Base font size set to 8px */
+    padding: 1rem 0; /* Vertical padding for the body */
+}
+
+/* Header styles */
+.site-header {
+    background: #bbe1fa; /* Lighter blue for the header */
+    text-align: center;
+    padding: 4rem 0; /* Increased padding for a larger header */
+}
+
+.site-header h1 {
+    font-size: 3.2rem; /* Increase font size for header */
+    color: #0f4c75; /* Darker blue for the header text */
+    margin-bottom: 1rem;
+}
+
+/* Main content area */
+#content {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    background: #ffffff; /* White background for the content area */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Alternating section background colors */
+.station-intro,
+.no-tokyo {
+    background-color: #bbe1fa; /* First shade of blue */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+.station-history,
+.art {
+    background-color: #bbe1fa; /* Second shade of blue */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+/* Section headings */
+section h2 {
+    font-size: 2.4rem; /* Increased font size for section headings */
+    color: #023e8a; /* Even darker blue for section heading text */
+    margin-bottom: 1rem;
+}
+
+/* Paragraph styles */
+section p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+/* Image styles */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 768px) {
+    .site-header h1 {
+        font-size: 2.4rem; /* Smaller font size for the header on mobile */
+    }
+
+    section h2 {
+        font-size: 1.8rem; /* Adjust section heading size for mobile */
+    }
+
+    #content, section {
+        padding: 1rem; /* Less padding on smaller screens */
+    }
+}
+
+/* Additional styles for buttons or interactive elements */
+button {
+    background-color: #bbe1fa; /* Blue that stands out against both section colors */
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #bbe1fa; /* A lighter blue on hover */
+}
